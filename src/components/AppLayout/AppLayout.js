@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './AppLayout.css';
 
 
 export function AppLayout(props){
