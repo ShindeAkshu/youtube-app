@@ -19,7 +19,9 @@ class App extends Component {
       </AppLayout>
      );
 }
-
+componentDidMount(){
+  this.loadYoutubeApi();
+}
 }
 
 
