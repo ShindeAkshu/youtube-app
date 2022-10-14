@@ -5,7 +5,7 @@ import './VideoPreview.css';
 export function VideoPreview(props){
     return(
         <ScrollToTop>
-            <div className='app-layout'>
+            <div className='VideoPreview'>
               
                 {props.childern}
             </div>
