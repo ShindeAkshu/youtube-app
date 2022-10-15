@@ -1,5 +1,5 @@
 import React from 'react';
-import './VideoMetadata.css'
+import './VideoMetadata.css';
 
 
 export function VideoMetadata(props){
