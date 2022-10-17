@@ -6,8 +6,9 @@ export function VideoMetadata(props){
     return(
        
             <div className='VideoMetadata'>
-              <div></div>
-                
+              <div>
+                {props.childern}
+                </div>
             </div>
         
     );
