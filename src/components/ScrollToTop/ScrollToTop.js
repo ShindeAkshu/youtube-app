@@ -1,5 +1,6 @@
 import React from 'react';
 import {withRouter} from 'react-router-dom';
+import './ScrollToTop.css';
 
 export class ScrollToTop extends React.Component {
     componentDidUpdate(prevprop) {
