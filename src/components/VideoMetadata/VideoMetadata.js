@@ -1,6 +1,5 @@
 import React from 'react';
 import './VideoMetadata.css';
-import { useState } from 'react';
 
 
 export function VideoMetadata(props){
