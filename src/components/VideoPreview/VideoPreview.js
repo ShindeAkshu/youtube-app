@@ -9,6 +9,10 @@ const timeAgo =new TimeAgo('en-US');
 export class VideoPreview extends React.Component{
     render(){
         const {video} =this.props;
+        if(!video){
+            return<div/>;
+        }
+        const duration =video.contentDetails ? video.contentDetails.duration : null;
     }
   
 }
