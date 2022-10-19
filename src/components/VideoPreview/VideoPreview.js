@@ -13,6 +13,12 @@ export class VideoPreview extends React.Component{
             return<div/>;
         }
         const duration =video.contentDetails ? video.contentDetails.duration : null;
+
+        return(
+            <link to={{pathname: this.props.pathname,search: this.props.search}}>
+                <div className={['video-preview',horizontal,expanded].join(' ')}></div>
+            </link>
+        )
     }
   
 }
