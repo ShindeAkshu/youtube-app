@@ -9,4 +9,18 @@ export function Rating(props){
     let dislikeCount =null;
 
     
+
+ return(
+    <div className='rating'>
+        <div>
+            <Icon name='thumbs outline up'/>
+            <span>{likeCount}</span>
+        </div>
+        <div>
+            <Icon name="thumbs outline dowm"/>
+            <span>{dislikeCount}</span>
+        </div>
+        {rating}
+    </div>
+ );
 }
