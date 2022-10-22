@@ -1,5 +1,5 @@
 import React from 'react';
-import './Rating.css';
+
 import {Icon,Progress} from 'semantic-ui-react';
 import {getShortNumberString} from '../../services/number/number-fromat';
 
