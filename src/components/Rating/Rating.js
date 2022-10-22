@@ -8,6 +8,10 @@ export function Rating(props){
     let likeCount =props.likecount !==0 ?props.likeCount : null;
     let dislikeCount =null;
 
+   
+
+
+
     
 
  return(
