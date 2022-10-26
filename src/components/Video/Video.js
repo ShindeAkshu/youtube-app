@@ -11,7 +11,10 @@ export function Video(props){
     const embedURL = `${BASE_EMBED_URL}${props.id}`;
     return(
         <div className='video-container'>
-            
+            <div className="video">
+                <iframe className='video-player' src={embedUrl} frameBorder='0'
+                allow='autoplay; encrypted-media' allowFullScreen title='video'/> 
+            </div>
         </div>
     )
 }
