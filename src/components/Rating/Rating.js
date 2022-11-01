@@ -6,7 +6,7 @@ import {getShortNumberString} from '../../services/number/number-fromat';
 export function Rating(props){
     let rating =null;
     let likeCount =props.likecount !==0 ?props.likeCount : null;
-    let dislikeCount =null;
+   
 
     if(props.likeCount && props.dislikeCount){
         const amountLikes = parseFloat(props.likeCount)
