@@ -8,7 +8,9 @@ export function InfiniteScroll(props) {
         <React.Fragment>
             {props.childern}
             <Waypoint onEnter={props.bottomReachedCallback}>
-               
+                <div className=''loader-container>
+                    <Loader active={props.showLoader} inline='cenetered'/>
+                </div>
             </Waypoint>
         </React.Fragment>
     );
